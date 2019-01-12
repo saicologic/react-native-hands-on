@@ -36,17 +36,17 @@
 
 ファイルを保存後、下記の表示がされれば成功です。
 
-![](images/hello_world.png)
+![](images/hello_world.png)
 
 
 # Expoの設定
-Simulatorを起動した状態で、`CTRL + D`をタイプします。
+Simulatorを起動した状態で、`CTRL + D`をタイプします。
 
 下記が表示されます。
 
 ![](images/simulator_debug.png)
 
-デフォルトで、Live Reloadが有効になっているため、コードを修正したら、シミュレーター上で自動で更新されます。
+デフォルトで、Live Reloadが有効になっているため、コードを修正したら、シミュレーター上で自動で更新されます。
 
 # ログの確認
 
