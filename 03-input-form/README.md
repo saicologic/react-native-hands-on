@@ -10,12 +10,12 @@
 
 ### 必要なパッケージをインストール
 
-入力フォームを表示するのに必要なパッケージをインストールします。
+入力フォームを表示するのに必要なパッケージをインストールします。
 
 [react-native-elements](https://react-native-training.github.io/react-native-elements/docs/0.19.1/getting_started.html)は、UI Kitです。stable版の0.19.1を使います。
-Current Releaseの1.0.0-beta7では動きません。
+Current Releaseの1.0.0-beta7では動きません。
 
-[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)は、入力ボタン用のカスタムアイコンライブラリです。
+[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)は、入力ボタン用のカスタムアイコンライブラリです。
 
 参考: [todoapp:package.json](https://github.com/saicologic/todoapp/blob/master/package.json)
 
@@ -143,11 +143,11 @@ const styles = StyleSheet.create({
 
 コードを修正後、ファイルを保存すれば自動で変わります。
 
-Tips: 赤い画面で、renderエラーの表示がされたら、`CTRL + r`で何度かリロードしてみてください。
+Tips: 赤い画面で、renderエラーの表示がされたら、`CTRL + r`で何度かリロードしてみてください。
 
 ![](./images/input_form.png)
 
-## 全体コード
+## 全体コード
 
 package.json
 
