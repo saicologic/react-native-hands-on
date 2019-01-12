@@ -11,7 +11,7 @@
 ## nodeをインストールする
 Node.jsのバージョンは、10以上のバージョンが推奨されています。=> [expo-cli installation](https://docs.expo.io/versions/latest/introduction/installation)
 
-下記から、`10.15.0`(2019/1/12最新) ダウンロードしてください。
+下記から、`10.15.0`(2019/1/12最新) ダウンロードしてください。
 https://nodejs.org/en/
 
 ### nvmを利用する場合（オプション）
