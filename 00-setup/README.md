@@ -24,7 +24,7 @@ https://nodejs.org/en/
 nvm install v10.15.0
 ```
 
-#### v10.15.0を使う
+#### v10.15.0を使う
 
 ```
 nvm use v10.15.0
