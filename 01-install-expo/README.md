@@ -25,7 +25,7 @@ expo init todoapp
 
 今回は、最低限のプロジェクトを作るため`blank`を指定します。
 
-出力結果
+出力結果
 
 ![Choose a template](images/choose_template.png)
 
@@ -42,7 +42,7 @@ Noの場合は、npmを使います。
 
 ### 最終出力結果
 
-![expo init実行結果](images/expo_init_output.png)
+![expo init実行結果](images/expo_init_output.png)
 
 ## Metro Bundlerを起動する
 
