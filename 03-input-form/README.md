@@ -100,7 +100,6 @@ render() {
             clearButtonMode="always"
           />
           <Icon
-            style={styles.plus}
             name="plus-circle"
             size={32}
             onPress={() => {
@@ -212,7 +211,6 @@ export default class App extends React.Component {
             clearButtonMode="always"
           />
           <Icon
-            style={styles.plus}
             name="plus-circle"
             size={32}
             onPress={() => {
