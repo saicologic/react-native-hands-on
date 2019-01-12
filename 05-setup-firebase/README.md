@@ -41,10 +41,10 @@ https://console.firebase.google.com/u/0/?hl=ja
 - storageBucket
 - messageingSenderId
 
-## app.jsonに設定する
+## app.jsonに設定する
 
 app.jsonに追記します。
-参考: [todoapp/app.json](https://github.com/saicologic/todoapp/blob/master/app.json)
+参考: [todoapp/app.json](https://github.com/saicologic/todoapp/blob/master/app.json)
 
 ```
 "extra": {
