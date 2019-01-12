@@ -2,7 +2,7 @@
 # やること
 - Expoのアカウントを取得する
 - expo-cliを使ってプロジェクトを作成する
-- Metro Bundlerを起動する
+- Metro Bundlerを起動する
 - iOS Simulatorで確認する
 - 実機で確認する
 
@@ -32,9 +32,9 @@ expo init todoapp
 ### Yarnの設定
 
 今回は、Yarnを使わないので、`N`を入力します。
-Noの場合は、npmを使います。
+Noの場合は、npmを使います。
 
-出力結果
+出力結果
 
 ```
 ? Yarn v1.7.0 found. Use Yarn to install dependencies? No
@@ -50,7 +50,7 @@ Metro Bundler( DevTools)を起動します。Metro Bundlerは、主に下記の�
 
 - iOS Simulator/Androidのログを見る
 - iOS/Android Simulatorの起動ショートカット
-- email/SMSにアプリを起動するためのリンクを送る
+- email/SMSにアプリを起動するためのリンクを送る
 - Expo.ioにProjectを公開する(AppStoreやGooglePlayへの公開ではありません)
 
 Metro Bundlerを起動します。
@@ -66,7 +66,7 @@ Tips: `npm start`と、`expo start`は同じです。
 
 ![Expo Start](images/expo_start.png)
 
-デフォルトに設定してるブラウザでMetro BundlerがのWebページが開きます。
+デフォルトに設定してるブラウザでMetro BundlerがのWebページが開きます。
 
 ![Metro Bundler](images/metro_bundler.png)
 
@@ -96,20 +96,20 @@ Press ? to show a list of all available commands.
 
 ![OpenUpSimulator](images/openup_on_simulator.png)
 
-Tips: Metro Bundlerの、`Run on iOS Simulator`をクリックしても、iOS Simulatorが起動します。
+Tips: Metro Bundlerの、`Run on iOS Simulator`をクリックしても、iOS Simulatorが起動します。
 
 ## 実機で確認する（オプション）
 
-### AppStoreからExpoアプリをインストールします。
+### AppStoreからExpoアプリをインストールします。
 
 ![](./images/app_store_expo_client.png)
 
 
 ### QRコードでアプリを起動する
-さきほど、`npm start`したときのにターミナル上に表示されている、`QRコード`をカメラアプリで取得します。
+さきほど、`npm start`したときのにターミナル上に表示されている、`QRコード`をカメラアプリで取得します。
 もしくは、MetroBundlerの左バーのQRコードも同じです。
 
-Push Notificationが届くので、タップして、Expoを起動します。
+Push Notificationが届くので、タップして、Expoを起動します。
 
 ![](images/notification_expo_qr_code.png)
 
