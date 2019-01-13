@@ -103,7 +103,7 @@ firebaseをインストールします。
 npm install firebase@5.7.2 --save
 ```
 
-package.jsonに`"firebase": "^5.7.2",`が、自動で追記されます。
+package.jsonに`"firebase": "^5.7.2",`が、自動で追記されます。
 
 ```
   "dependencies": {
