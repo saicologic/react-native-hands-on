@@ -51,7 +51,7 @@ addItem = async () => {
 }
 ```
 
-firebase.jsに下記を追記します
+firebase.jsに下記を追記します
 
 参考: [todoapp: firebase.js](https://github.com/saicologic/todoapp/blob/master/firebase.js#L12-L21)
 
