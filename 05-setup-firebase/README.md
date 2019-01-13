@@ -4,6 +4,8 @@
 - Google Cloud Platformでプロジェクトを作成する
 - ウェブアプリにFirebaseを追加で設定情報を取得する
 - app.jsonに設定する
+- Cloud Firestoreでデータベースを作成
+- firebase packageをインストール
 
 # 手順
 ## Googleのアカウントを取得する
@@ -78,7 +80,7 @@ app.jsonに追記します。
 },
 ```
 
-## Cloud Firestoreでデータベースを作成します。
+## Cloud Firestoreでデータベースを作成
 
 ![](images/cloud_firestore.png)
 
@@ -92,3 +94,33 @@ app.jsonに追記します。
 Simulator等で追記したテキスト（ドキュメント）は、下記の画面で確認できます。
 タブにして、閉じないことをオススメします。
 ![](images/cloud_firestore_done.png)
+
+## firebase packageをインストール
+
+firebaseをインストールします。
+
+```
+npm install firebase@5.7.2 --save
+```
+
+package.jsonに`"firebase": "^5.7.2",`が、自動で追記されます。
+
+```
+  "dependencies": {
+    "expo": "^32.0.0",
+    "firebase": "^5.7.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-elements": "^0.19.1",
+    "react-native-vector-icons": "^6.0.2"
+  },
+```
+
+App.jsonに追記します。
+
+参考: [todoapp/App.js](https://github.com/saicologic/todoapp/blob/master/App.js#L14)
+
+```
+import firebase from './firebase';
+```
+
