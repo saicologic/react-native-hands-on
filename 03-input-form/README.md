@@ -63,7 +63,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 ```
 
 #### constructor
-`export default class App extends React.Component`以下に追記します。
+`export default class App extends React.Component`以下に追記します。
 constructorはコンポーネントのコンストラクタです。コンポーネントを初期化するときに呼ばれます。
 入力フォームの状態を記録するために、`this.state.text`を定義します。
 
