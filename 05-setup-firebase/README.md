@@ -13,7 +13,7 @@
 
 ## Google Cloud Platformでプロジェクトを作成する
 
-※ https://cloud.google.com/　でコンソールログイン済み
+※ https://cloud.google.com/　でコンソールログイン済み
 
 [プロジェクトの作成](https://console.cloud.google.com/projectcreate?previousPage=%2Fiam-admin%2Fsettings%3Fproject%3Drepro-reactnative-handson%26_ga%3D2.12973111.-1010586665.1545205546&organizationId=0)
 
@@ -30,7 +30,7 @@ https://console.firebase.google.com/u/0/?hl=ja
 ![](images/add_project_button.png)
 
 
-#### プロジェクトの追加
+#### プロジェクトの追加
 
 ![](images/add_project.png)
 
