@@ -60,6 +60,6 @@ vscodeを使っている場合は、ESlintを入れます。
 
 ![](./images/eslint.png)
 
-適当に、末尾のカンマをとってみましょう。
+適当に、末尾のカンマをとってみましょう。
 
 ![](./images/eslint_warn.png)
