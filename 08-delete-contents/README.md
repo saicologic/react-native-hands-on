@@ -43,7 +43,7 @@ complteItem = async (item) => {
 
 ## Simulatorで確認
 
-![](images/delete_contant.png)
+![](images/delete_content.png)
 
 ## ログの確認
 
