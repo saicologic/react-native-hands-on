@@ -9,7 +9,8 @@
 ## Googleのアカウントを取得する
 
 みんな持ってると思うので
-[アカウント作成](https://accounts.google.com/signup/v2/webcreateaccount?hl=ja&continue=https%3A%2F%2Fmyaccount.google.com%2Fintro&flowName=GlifWebSignIn&flowEntry=SignUp)
+
+まだ持ってなければこちらから => [アカウント作成](https://accounts.google.com/signup/v2/webcreateaccount?hl=ja&continue=https%3A%2F%2Fmyaccount.google.com%2Fintro&flowName=GlifWebSignIn&flowEntry=SignUp)
 
 ## Google Cloud Platformでプロジェクトを作成する
 
