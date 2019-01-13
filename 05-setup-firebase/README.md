@@ -77,3 +77,18 @@ app.jsonに追記します。
   }
 },
 ```
+
+## Cloud Firestoreでデータベースを作成します。
+
+![](images/cloud_firestore.png)
+
+### データベースの作成
+
+`テストモード`で開始を選択し、`有効にする`を選択します。
+※ 必要であれば、セキュリティルールの変更をお願いします。
+
+![](./images/security_rule.png)
+
+Simulator等で追記したテキスト（ドキュメント）は、下記の画面で確認できます。
+タブにして、閉じないことをオススメします。
+![](images/cloud_firestore_done.png)
