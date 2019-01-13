@@ -40,7 +40,7 @@
 
 
 # Expoの設定
-Simulatorを起動した状態で、`CTRL + D`をタイプします。
+Simulatorを起動した状態で、`Command + d`をタイプします。
 
 下記が表示されます。
 
