@@ -8,27 +8,45 @@
 # 手順
 ## Googleのアカウントを取得する
 
+みんな持ってると思うので
+[アカウント作成](https://accounts.google.com/signup/v2/webcreateaccount?hl=ja&continue=https%3A%2F%2Fmyaccount.google.com%2Fintro&flowName=GlifWebSignIn&flowEntry=SignUp)
+
 ## Google Cloud Platformでプロジェクトを作成する
-https://console.cloud.google.com/projectcreate?previousPage=%2Fiam-admin%2Fsettings%3Fproject%3Drepro-reactnative-handson%26_ga%3D2.12973111.-1010586665.1545205546&organizationId=0
+
+※ https://cloud.google.com/　でコンソールログイン済み
+
+[プロジェクトの作成](https://console.cloud.google.com/projectcreate?previousPage=%2Fiam-admin%2Fsettings%3Fproject%3Drepro-reactnative-handson%26_ga%3D2.12973111.-1010586665.1545205546&organizationId=0)
+
+![](images/create_project.png)
+
 
 ## Firebaseのプロジェクトを作成する
 https://console.firebase.google.com/u/0/?hl=ja
 
 さきほど作成した、プロジェクトを利用して、Firebaseのプロジェクトを作成します。
 
+### プロジェクトを追加
+
 ![](images/add_project_button.png)
 
 
-1. プロジェクトを指定する
-2. Firebaseを追加
+#### プロジェクトの追加
 
 ![](images/add_project.png)
 
+#### 料金プランの確認
+
+![](images/plan.png)
+
 ## ウェブアプリにFirebaseを追加で設定情報を取得する
+
+### ホーム
 
 ホーム画面のProject Overviewを開きます。最初に表示されるページです。
 
 ![](images/top.png)
+
+### 設定情報の取得
 
 ![](images/firebase_webapp.png)
 
@@ -44,7 +62,7 @@ https://console.firebase.google.com/u/0/?hl=ja
 ## app.jsonに設定する
 
 app.jsonに追記します。
-参考: [todoapp/app.json](https://github.com/saicologic/todoapp/blob/master/app.json)
+参考: [todoapp/app.json](https://github.com/saicologic/todoapp/blob/master/app.json#L11-L20)
 
 ```
 "extra": {
