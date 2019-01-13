@@ -37,9 +37,9 @@ export default fire;
 
 ## テキストを保存する
 
-App.jsonに書きを追記します。
+App.jsに書きを追記します。
 
-参考: [todoapp:App.json](https://github.com/saicologic/todoapp/blob/master/App.js#L90-L100)
+参考: [todoapp:App.js](https://github.com/saicologic/todoapp/blob/master/App.js#L90-L100)
 
 ```
 addItem = async () => {

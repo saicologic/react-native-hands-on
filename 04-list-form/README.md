@@ -137,7 +137,7 @@ todoList: {
 
 ## 全体コード
 
-App.json
+App.js
 
 ```
 import React from 'react';

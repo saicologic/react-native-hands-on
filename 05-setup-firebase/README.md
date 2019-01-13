@@ -116,7 +116,7 @@ package.jsonに`"firebase": "^5.7.2",`が、自動で追記されます。
   },
 ```
 
-App.jsonに追記します。
+App.jsに追記します。
 
 参考: [todoapp/App.js](https://github.com/saicologic/todoapp/blob/master/App.js#L14)
 
